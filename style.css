@@ -18,7 +18,9 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-
+body {
+    background: url("imagens/frente2.jpg") no-repeat center center;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -32,25 +34,35 @@ nav a {
   font-size: 20px;
   color: rgb(255, 0, 0);
 }
+main {
+  background-color: aquamarine;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+
+}
 .imagem {
   display: table-cell;
   float: left;
   margin-top: -20px;
 
+
 }
 .texto {
+  background-color: rgba(208, 255, 0, 0.082);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: red;
-  font-size: 40px;
+  font-size: 20px;
   display: table-cell;
   font-weight: bolder;
   float: right;
-  width: 960px;
-  margin-top: -160px;
+  margin-top: -130p;
+  
+  
 
 }
 main {
-  background: url("frente2.jpg") no-repeat center center;
+  background: url("imagens/frente2.jpg") no-repeat center center;
   background-size: cover;
   height: 92vh;
 }
@@ -131,13 +143,21 @@ main {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 section {
+  background-color: aquamarine;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
+  font-size: 30px;
   color: red;
-  
+  margin-top: 100px;
   border-radius: 10px;
   padding: 30px;
-  width: 500px;
+  width: 400px;
   margin-left: 70px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+footer {
+  background-color: blanchedalmond;
+  background-size: 10px;
+  margin-top: 250px;
+  text-align: center;
+  color: red;
 }
