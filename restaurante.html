@@ -1,38 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante</title>
+    <title>O Restaurante</title>
     <style>
-        body {
-            background: -o-linear-gradient(red, gray);
-          font-family: Arial, Helvetica, sans-serif;  
-        }
-        imagem {
-            margin-left: auto;
-            width: 500px;
+        * {
+            margin: opx;
+            padding: 0px;
 
         }
-        section {
-            font-family: Arial, Helvetica, sans-serif;
-            margin-left: auto;
-            text-align: center;
+        .conteiner {
+         
+            width: 100%;
+        }
+        img {
+            width: 100%;
+
         }
     </style>
 </head>
 
 <body>
     <h1>O Restaurante</h1>
-    <section>
-        <div class="imagem"><img src="imagens/imagem_001.jpg" alt="restaurante" width="500px"></div>
-        <div class="imagem"><img src="imagens/imagem-alto.jpg" alt="alto" width="500px"></div>
-         <div class="imagem"><img src="imagens/comida_002.jpg" alt="alto" width="500px"></div>
+    <div class="conteiner">
+        <picture>
+            <source srcset="imagens/imagem_001_1.png" media="(max-width: 498pix)">
+            <source srcset="imagens/imagem_001_g.jpg" media="(min-width: 499pix)">
 
-    </section>
+            <img src="imagens/imagem_001_1.jpg" alt="Imagem do Alto">
+           
+        </picture>
 
+
+    </div>
+   
+    <p><a href="index.html">Voltar a página anterior</a></p>
 </body>
 
 </html>

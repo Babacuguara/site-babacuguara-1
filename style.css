@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+body, html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
 
 a {
   color: #fff;
@@ -18,9 +23,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-body {
-    background: url("imagens/frente2.jpg") no-repeat center center;
-}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -35,36 +38,28 @@ nav a {
   color: rgb(255, 0, 0);
 }
 main {
-  background-color: aquamarine;
   padding: 20px;
   border-radius: 10px;
   margin: auto;
 
 }
 .imagem {
-  display: table-cell;
-  float: left;
-  margin-top: -20px;
-
-
-}
-.texto {
-  background-color: rgba(208, 255, 0, 0.082);
+  display: flex;
+  align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: red;
-  font-size: 20px;
-  display: table-cell;
-  font-weight: bolder;
-  float: right;
-  margin-top: -130p;
-  
-  
-
 }
-main {
+.texto {
+  background-color: rgb(4, 247, 4);
+  font-weight: bolder;
+  font-size: 35px;
+  margin-top: -18px;
+}
+
+body {
   background: url("imagens/frente2.jpg") no-repeat center center;
   background-size: cover;
-  height: 92vh;
+  height: 100%;
 }
 
 .nav-list {
@@ -142,22 +137,18 @@ main {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
-section {
-  background-color: aquamarine;
+.comidas {
+  display: block;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: red;
+  height: 90vb;
   font-size: 30px;
-  color: red;
-  margin-top: 100px;
-  border-radius: 10px;
-  padding: 30px;
-  width: 400px;
-  margin-left: 70px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+  margin-top: 80px;
 }
-footer {
-  background-color: blanchedalmond;
-  background-size: 10px;
-  margin-top: 250px;
+.rodape {
+  flex-shrink: 0;
+  background-color: black;
+  color: white;
+  padding: 20px;
   text-align: center;
-  color: red;
 }
