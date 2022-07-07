@@ -52,8 +52,9 @@ main {
 .texto {
   background-color: rgb(4, 247, 4);
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 14px;
   margin-top: -18px;
+  text-align: center;
 }
 
 body {
@@ -67,6 +68,7 @@ body {
 .nav-list {
   list-style: none;
   display: flex;
+
 }
 
 .nav-list li {
@@ -144,8 +146,10 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: red;
   height: 90vb;
-  font-size: 30px;
-  margin-top: 80px;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-left: 40px;
+  
 }
 .rodape {
   flex-shrink: 0;
