@@ -29,13 +29,13 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
+  background: #f90303;
   height: 8vh;
 }
 nav a {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
-  color: rgb(255, 0, 0);
+  color: white;
 }
 main {
   padding: 20px;
@@ -45,15 +45,15 @@ main {
 }
 .imagem {
   display: flex;
-  align-items: center;
+  align-items: center, center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: red;
+
 }
 .texto {
-  background-color: rgb(4, 247, 4);
+  background-color: rgb(222, 251, 5);  
   font-weight: bolder;
-  font-size: 14px;
-  margin-top: -18px;
+  font-size: 18px;
+  margin-top: -20px;
   text-align: center;
 }
 
@@ -110,6 +110,7 @@ body {
   }
   .nav-list li {
     margin-left: 0;
+    margin-block-start: 100px;
     opacity: 0;
   }
   .mobile-menu {
@@ -143,20 +144,12 @@ body {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
-.comidas {
-  display: block;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: red;
-  height: 90vb;
-  font-size: 20px;
-  margin-top: 60px;
-  margin-left: 40px;
   
-}
 .rodape {
+  margin-top: 480px;
   flex-shrink: 0;
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
